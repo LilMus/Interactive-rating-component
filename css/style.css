@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 420px;
+  border-radius: 20px;
+}
+
+.main-card-state svg {
+  width: 17px;
+  height: 16px;
+  margin-top: 30px;
+  background-color: rgba(124, 135, 152, 0.1);
+  padding: 15px 15px;
+  border-radius: 50%;
+}
+.main-card-state .under-div {
+  width: 86%;
+  margin: auto;
+}
+.main-card-state h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.main-card-state p {
+  color: hsl(217deg, 12%, 63%);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.main-card-state button {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: hsl(25deg, 97%, 53%);
+  text-transform: uppercase;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0.8em 0em;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.main-card-state button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.numbers .number {
+  width: 17px;
+  height: 16px;
+  text-align: center;
+  background-color: rgba(124, 135, 152, 0.1);
+  padding: 15px 15px;
+  border-radius: 50%;
+}
+
+.main-card-thank {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.main-card-thank svg {
+  width: 170px;
+  height: 170px;
+  margin-top: 20px;
+}
+.main-card-thank .selection {
+  color: hsl(25deg, 97%, 53%);
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgba(124, 135, 152, 0.1);
+  padding: 0.4em 1.1em;
+  border-radius: 20px;
+}
+.main-card-thank h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.main-card-thank p {
+  text-align: center;
+  color: #7c8798;
+  margin: 10px 27px 40px 27px;
+}/*# sourceMappingURL=style.css.map */
